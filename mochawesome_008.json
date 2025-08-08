@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-08-07T20:25:47.961Z",
+    "end": "2025-08-07T20:25:57.646Z",
+    "duration": 9685,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0ef6e04f-e989-41a7-9337-8c391ff9658e",
+      "title": "",
+      "fullFile": "cypress/integration/saucedemo.cy.js",
+      "file": "cypress/integration/saucedemo.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "82961de5-8cee-4064-b95d-5c13a9c74bf4",
+          "title": "SauceDemo Login Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should login successfully with valid credentials",
+              "fullTitle": "SauceDemo Login Tests should login successfully with valid credentials",
+              "timedOut": null,
+              "duration": 2964,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "a51184f7-a856-4b16-a7b5-60aabd62c5a0",
+              "parentUUID": "82961de5-8cee-4064-b95d-5c13a9c74bf4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should not login with invalid credentials",
+              "fullTitle": "SauceDemo Login Tests should not login with invalid credentials",
+              "timedOut": null,
+              "duration": 1760,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "a3c8d483-16cf-4359-97e0-ee3e955954b6",
+              "parentUUID": "82961de5-8cee-4064-b95d-5c13a9c74bf4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should show error for locked out user",
+              "fullTitle": "SauceDemo Login Tests should show error for locked out user",
+              "timedOut": null,
+              "duration": 1857,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "9483c24c-1cc5-4def-bb1d-2aed138270bb",
+              "parentUUID": "82961de5-8cee-4064-b95d-5c13a9c74bf4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should display error if username is empty",
+              "fullTitle": "SauceDemo Login Tests should display error if username is empty",
+              "timedOut": null,
+              "duration": 1376,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "21c5392a-5b3e-42df-8b1d-a166427e8c7f",
+              "parentUUID": "82961de5-8cee-4064-b95d-5c13a9c74bf4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should display error if password is empty",
+              "fullTitle": "SauceDemo Login Tests should display error if password is empty",
+              "timedOut": null,
+              "duration": 1525,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "2390578a-5017-49bb-a3fb-13915ceb1561",
+              "parentUUID": "82961de5-8cee-4064-b95d-5c13a9c74bf4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a51184f7-a856-4b16-a7b5-60aabd62c5a0",
+            "a3c8d483-16cf-4359-97e0-ee3e955954b6",
+            "9483c24c-1cc5-4def-bb1d-2aed138270bb",
+            "21c5392a-5b3e-42df-8b1d-a166427e8c7f",
+            "2390578a-5017-49bb-a3fb-13915ceb1561"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9482,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "code": false,
+        "overwrite": false,
+        "reportFileName": "10pu-cypress-report",
+        "autoOpen": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
