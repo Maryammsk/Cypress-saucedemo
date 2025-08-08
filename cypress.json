@@ -1,0 +1,19 @@
+{
+  "watchForFileChanges": false,
+  "responseTimeout": 6000,
+  "screenshotOnRunFailure": false,
+  "video": false,
+  "baseUrl": "https://www.saucedemo.com",
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "defaultCommandTimeout": 8000,
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "code": false,
+    "overwrite": false,
+    "reportFileName": "10pu-cypress-report",
+    "autoOpen": true,
+    "charts": true
+  }
+}

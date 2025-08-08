@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-08-07T19:05:42.578Z",
+    "end": "2025-08-07T19:05:51.814Z",
+    "duration": 9236,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0fe175be-7e21-4082-bf8c-8edf977c504d",
+      "title": "",
+      "fullFile": "cypress/integration/test.spec.js",
+      "file": "cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "654d7707-a34a-4966-b0e9-0c22eb4df80e",
+          "title": "Test Login Functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should login to website",
+              "fullTitle": "Test Login Functionality should login to website",
+              "timedOut": null,
+              "duration": 791,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Cannot read property 'response' of undefined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a `after each` hook we are skipping the remaining tests in the current suite: `Test Login Functionality`",
+                "estack": "TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Cannot read property 'response' of undefined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a `after each` hook we are skipping the remaining tests in the current suite: `Test Login Functionality`\n    at https://opensource-demo.orangehrmlive.com/web/dist/js/app.js?v=1721393199309:1:11603\n    at async Dt.request (https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1721393199309:144:77071)\n    at Dt.request (https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1721393199309:144:77164)",
+                "diff": null
+              },
+              "uuid": "3b36b373-83a7-4b15-8fb2-10c087aafea9",
+              "parentUUID": "654d7707-a34a-4966-b0e9-0c22eb4df80e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should not login to website",
+              "fullTitle": "Test Login Functionality should not login to website",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "6d0882b4-dfb0-46ae-8dd7-cd7136c01083",
+              "parentUUID": "654d7707-a34a-4966-b0e9-0c22eb4df80e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "3b36b373-83a7-4b15-8fb2-10c087aafea9"
+          ],
+          "pending": [
+            "6d0882b4-dfb0-46ae-8dd7-cd7136c01083"
+          ],
+          "skipped": [],
+          "duration": 791,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "code": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

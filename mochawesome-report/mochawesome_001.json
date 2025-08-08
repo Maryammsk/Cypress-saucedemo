@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 1,
+    "failures": 0,
+    "start": "2025-08-07T19:08:34.110Z",
+    "end": "2025-08-07T19:08:44.521Z",
+    "duration": 10411,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 50,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a200a662-4515-415a-83cf-5c1e316452de",
+      "title": "",
+      "fullFile": "cypress/integration/test.spec.js",
+      "file": "cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a1d3c730-34fa-4756-b174-ebbd8cdd2493",
+          "title": "Test Login Functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should login to website",
+              "fullTitle": "Test Login Functionality should login to website",
+              "timedOut": null,
+              "duration": 8580,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "6356ffe8-be48-4028-8ff8-af247769cca1",
+              "parentUUID": "a1d3c730-34fa-4756-b174-ebbd8cdd2493",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should not login to website",
+              "fullTitle": "Test Login Functionality should not login to website",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "7cda2cef-ded8-4b4c-8f45-6b02a4dedab1",
+              "parentUUID": "a1d3c730-34fa-4756-b174-ebbd8cdd2493",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6356ffe8-be48-4028-8ff8-af247769cca1"
+          ],
+          "failures": [],
+          "pending": [
+            "7cda2cef-ded8-4b4c-8f45-6b02a4dedab1"
+          ],
+          "skipped": [],
+          "duration": 8580,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "code": false,
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

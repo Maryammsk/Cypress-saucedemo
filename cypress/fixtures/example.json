@@ -1,0 +1,10 @@
+{
+  
+  "validUsername": "Admin",
+  "validPassword": "admin123",
+  "invalidUsername": "wrongUser",
+  "invalidPassword": "wrongPass",
+
+
+  "body": "Fixtures are a great way to mock data for responses to routes"
+}
